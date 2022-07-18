@@ -5,48 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!--css-->
+    <link rel="stylesheet" href="style_esercizio.css" type="text/css">
 </head>
 <body>
     <header>
-        <div> 
-            <img src="logo.jpg" alt="logo html 5">
-            <h1>Il nome del mio sito</h1>
-            <h2>Stottotitolo</h3>
+        <div class="banner">
+            <img class="logo" src="logo.jpg" alt="logo html 5">
+            <div class="contenitore_titolo"> 
+                <h1>Il nome del mio sito</h1>
+                <h2>Stottotitolo</h3>
+            </div>
         </div>
-        <nav>
-            <a href="Home.html"> Home</a> |    
-            <a href="Chi_sono.html"> Chi sono</a> |
-            <a href="portfolio.html"> Portfolio</a> |
-            <a href="Blog.html">Blog</a> |
-            <a href="contatti.html">Contatti</a> |
-<<<<<<< HEAD
-            <!-- spazio vuoto a destra-->
-=======
->>>>>>> 664da7bc8326961582bbadbb75df1dcaf0e9e9a9
-            <aside></aside>
-        </nav>
+        <div class="contenitore_nav">
+            <nav>
+                <a href="Home.html"> Home</a>   
+                <a href="Chi_sono.html"> Chi sono</a> 
+                <a href="portfolio.html"> Portfolio</a> 
+                <a href="Blog.html">Blog</a> 
+                <a class="no_border" href="contatti.html">Contatti</a> 
+                <!-- spazio vuoto a destra-->
+            </nav>
+            <aside class="contenitore_nav_aside"></aside>
+        </div>
     </header>
     <br>
     <main>
-        <div>
+        <div class="contenuto_centrale">
             <h2>Questo è il titolo dell'articolo</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas condimentum justo nec imperdiet bibendum. Donec eleifend eros vitae elit laoreet venenatis. Donec at massa sit amet nibh interdum elementum et et est. Donec vitae dui ipsum. Quisque vehicula ultrices ex a tempus. In dapibus varius libero, sit amet condimentum massa congue eget. Curabitur accumsan elementum bibendum. Donec facilisis magna vel est semper imperdiet. Aenean bibendum nibh ante, pulvinar sodales ante porttitor id. Nunc gravida luctus turpis, eu sollicitudin ipsum facilisis id. Fusce nulla dui, dapibus et malesuada at, fringilla sed massa. Quisque sodales pharetra dolor, id consectetur velit fringilla quis.</p>
                 <p>Pellentesque convallis pulvinar placerat. Praesent ultricies vel nibh quis fringilla. Cras ut arcu neque. Suspendisse faucibus sapien at vulputate vulputate. Aliquam id pretium neque. Aenean condimentum non leo eget fermentum. Morbi scelerisque aliquet nulla vitae dapibus. Aenean quis nunc non justo mollis feugiat in blandit urna. Aenean eu viverra elit, at fringilla enim. In facilisis sapien sit amet eros lacinia rutrum. Sed a volutpat justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras in dapibus purus.</p>
-<<<<<<< HEAD
             <!--Questo contenuto va a destra-->
-            <aside >
-                <h2>Archivio</h2>
-=======
-            <aside >
-                <h2> Archivio</h2>
->>>>>>> 664da7bc8326961582bbadbb75df1dcaf0e9e9a9
-                <nav>
-                    <a href="Archivio.html#gennaio">Gennaio</a> |
-                    <a href="archivio.html#febbraio">Febbraio</a> |
-                    <a href="archivio.html#marzo">Marzo</a> |
-                </nav>
-            </aside>
         </div>
+        <aside>
+            <h2> Archivio</h2>
+            <div class="contenitore_archivio">
+                <a href="Archivio.html#gennaio">Gennaio</a> 
+                <a href="archivio.html#febbraio">Febbraio</a> 
+                <a id="no_border_marzo" href="archivio.html#marzo">Marzo</a> 
+            </div>
+        </aside>
     </main>
     <footer>
         <p>copyright 2014 - Mio sito - numero telefono - info@miosito.com</p>
